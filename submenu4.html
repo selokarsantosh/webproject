@@ -2,9 +2,70 @@
 <html>
 <head>
 <title>submenu</title>
-<link rel="stylesheet" href="submenu_op.css">
 
 <script src="https://kit.fontawesome.com/f1703bf8f2.js" crossorigin="anonymous"></script>
+  
+  <style>
+    
+    
+*{
+
+	margin:0px;
+
+	padding:0px;
+}
+ul{
+	list-style:none;
+}
+
+ul li{
+
+	width:130px;
+    background: black;
+	float:left;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	border:2px solid white;
+	position:relative;
+    border-radius:10px;
+
+
+}
+
+ul li a{
+
+	text-decoration: none;
+    color:white;
+    font-size: 20px;
+    display:block;
+}
+
+ul li a:hover{
+
+	background:darkcyan;
+	border-radius:10px;
+}
+
+ul ul{
+
+	position:absolute;
+	display:none;
+}
+
+ul li:hover>ul{
+
+	display:block;
+}
+
+ul ul ul{
+
+margin-left:130px;
+top:0px;
+
+}
+    
+  </style>
 
 
 </head>
